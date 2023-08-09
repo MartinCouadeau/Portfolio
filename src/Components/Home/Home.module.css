@@ -1,3 +1,73 @@
 .mainDiv {
+  font-size: medium;
+}
+
+.title {
   color: aliceblue;
+}
+
+.iconList {
+  list-style: none; /* Oculta los números de la lista */
+  padding-left: 0; /* Elimina el padding izquierdo por defecto */
+  display: flex; /* Utiliza Flexbox para el diseño en línea */
+  flex-wrap: wrap; /* Permitir que los elementos se envuelvan en líneas */
+}
+
+.iconList li {
+  margin-right: 20px; /* Espacio entre elementos */
+  display: flex; /* Mostrar ícono y texto en línea */
+  align-items: center; /* Centrar ícono y texto verticalmente */
+}
+
+.icon {
+  margin-right: 10px; /* Espacio entre ícono y texto */
+  font-size: 20px; /* Tamaño del ícono */
+}
+
+.js {
+  color: yellow;
+}
+
+.node {
+  color: green;
+}
+
+.react {
+  color: rgb(0, 140, 255);
+}
+
+.html {
+  color: rgb(255, 136, 0);
+}
+
+.css {
+  color: blue;
+}
+
+.express {
+  color: green;
+}
+
+.postgresql {
+  color: gray;
+}
+
+.dataStructure {
+  color: black; /* Cambia el color del ícono de DataStructure */
+}
+
+.sequelize {
+  color: gray;
+}
+
+.python {
+  color: yellow;
+}
+
+.cuttlefish {
+  color: pink;
+}
+
+.c {
+  color: purple;
 }
