@@ -1,0 +1,78 @@
+.menu {
+  position: fixed;
+  top: 0;
+  left: -130px; /* Cambia el valor a un número negativo para ocultar inicialmente el menú */
+  background-color: #333;
+  width: 200px;
+  height: 100%; /* Ajusta la altura para cubrir toda la pantalla */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: right 0.3s; /* Agrega una transición suave */
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.menuList {
+  list-style: none;
+  position: relative;
+  top: 5px;
+  left: 61px;
+  padding: 0;
+  margin: 0;
+}
+
+.menuList li {
+  margin-bottom: 20px;
+}
+
+.menuList li a {
+  text-decoration: none;
+  color: #fff; /* Color del texto de los enlaces */
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.menuList li a:hover {
+  color: #ff8800; /* Color del texto al hacer hover */
+}
+
+/*contacts*/
+
+.contactList {
+  position: absolute;
+  bottom: 35px;
+  right: 10px;
+  list-style: none; /* Oculta los números de la lista */
+  padding-left: 0; /* Elimina el padding izquierdo por defecto */
+  display: flex; /* Utiliza Flexbox para el diseño en línea */
+  flex-wrap: wrap; /* Permitir que los elementos se envuelvan en líneas */
+}
+
+.contact {
+  margin-right: 10px; /* Espacio entre ícono y texto */
+  height: 10px;
+  font-size: 20px; /* Tamaño del ícono */
+}
+
+.github {
+  color: #000000; /* Color de GitHub */
+}
+
+.github:hover {
+  color: #555555; /* Color de hover de GitHub */
+}
+
+.linkedin {
+  color: #0077b5; /* Color de LinkedIn */
+}
+
+.linkedin:hover {
+  color: #03aaf8; /* Color de hover de LinkedIn */
+}
+
+.email {
+  color: #d44638; /* Color de Email */
+}
+
+.email:hover {
+  color: #f3534a; /* Color de hover de Email */
+}

@@ -1,0 +1,34 @@
+/* HamburgerButton.module.css */
+.hamburger {
+  position: absolute;
+  top: 5px;
+  left: -10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40px; /* Aumenta el ancho */
+  height: 40px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.line {
+  width: 30px; /* Ocupa el ancho completo del botón */
+  height: 4px;
+  background: #ffffff; /* Color de las líneas */
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.open .line:nth-child(1) {
+  transform: translateY(8px) rotate(45deg); /* Ajustar la posición vertical */
+}
+
+.open .line:nth-child(2) {
+  opacity: 0;
+}
+
+.open .line:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg); /* Ajustar la posición vertical */
+}

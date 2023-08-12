@@ -2,27 +2,20 @@
 
 Sección "Home":
     Encabezado (Header):
-        - Tu nombre completo y título profesional.
-        - Un subtítulo o declaración breve que resuma tus habilidades y enfoque.
+        - Tu nombre completo y título profesional. V
+        - Un subtítulo o declaración breve que resuma tus habilidades y enfoque. V
 
     Imagen de Encabezado o Fondo (Hero Image):
-        - Una imagen llamativa que represente tu personalidad o tu trabajo (puede ser una ilustración, foto de fondo, etc.).
+        - Una imagen llamativa que represente tu personalidad o tu trabajo (puede ser una ilustración, foto de fondo, etc.). V
 
     Resumen de Habilidades:
-        - Enumera tus habilidades clave, como JavaScript, React, CSS, HTML, etc.
+        - Enumera tus habilidades clave, como JavaScript, React, CSS, HTML, etc. V
 
     Presentación Personal:
-        - Una breve introducción sobre quién eres y tu pasión por el desarrollo web.
+        - Una breve introducción sobre quién eres y tu pasión por el desarrollo web. V
 
     Llamada a la Acción (Call to Action):
         - Un botón o enlace que invite a los visitantes a explorar tus proyectos o saber más sobre ti.
-
-    Proyectos Destacados:
-        - Muestra imágenes o miniaturas de algunos proyectos destacados.
-        - Puedes agregar una breve descripción o título debajo de cada proyecto.
-
-Sección "Acerca de Mí" Resumida:
-    - Un enlace o botón que conduzca a la sección de "Acerca de Mí" para obtener más detalles.
 
 Sección "Detalle de Proyectos":
     Navegación o Volver:
@@ -63,4 +56,13 @@ Sección "Información Personal":
 
     Enlaces a Recursos Adicionales:
         - Si tienes un blog, tutoriales u otros recursos, puedes enlazarlos aquí.
+*/
+
+
+
+
+/*
+Sección "Acerca de Mí" Resumida:
+    - Un enlace o botón que conduzca a la sección de "Acerca de Mí" para obtener más detalles.
+
 */
