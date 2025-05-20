@@ -36,7 +36,7 @@ export default function Home () {
                     <li><i className={`fab fa-css3-alt ${styles.icon} ${styles.css}`}></i></li>
                     <li><i className={`fas fa-database ${styles.icon} ${styles.postgresql}`}></i></li>
                     <li><i className={`fab fa-python ${styles.icon} ${styles.python}`}></i></li>
-                    <li><i className={`fab fa-cuttlefish ${styles.icon} ${styles.cuttlefish}`}></i></li>
+                    {/*<li><i className={`fab fa-cuttlefish ${styles.icon} ${styles.cuttlefish}`}></i></li>*/}
                 </ol>
             </div>
             <div>

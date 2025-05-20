@@ -18,9 +18,24 @@ const Menu = () => {
             
             <div>
               <ol className={styles.contactList}>
-                  <li><a href="https://github.com/MartinCouadeau" className={`fab fa-github ${styles.contact} ${styles.github}`}></a></li>
-                  <li><a href="https://www.linkedin.com/in/martin-couadeau/" className={`fab fa-linkedin ${styles.contact} ${styles.linkedin}`}></a></li>
-                  <li><a href="mailto:martin_couadeau1@hotmail.com" className={`fas fa-envelope ${styles.contact} ${styles.email}`}></a></li>
+                  <li><a  href="https://github.com/MartinCouadeau" 
+                          target="_blank"
+                          rel="noopener noreferrer" 
+                          className={`fab fa-github ${styles.contact} ${styles.github}`}>
+                      </a>
+                    </li>
+                  <li><a href="https://www.linkedin.com/in/martin-couadeau/" 
+                          target="_blank"
+                          rel="noopener noreferrer" 
+                          className={`fab fa-linkedin ${styles.contact} ${styles.linkedin}`}>
+                      </a>
+                    </li>
+                  <li><a href="mailto:martin_couadeau1@hotmail.com" 
+                          target="_blank"
+                          rel="noopener noreferrer" 
+                          className={`fas fa-envelope ${styles.contact} ${styles.email}`}>
+                      </a>
+                  </li>
               </ol>
             </div>
         </div>
