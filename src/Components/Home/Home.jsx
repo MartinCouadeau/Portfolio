@@ -41,9 +41,12 @@ export default function Home () {
             </div>
             <div>
                 <p className={styles.description}>
-                    While I'm new to the scene, my passion lies in crafting the gears behind the scenes. I'm driven by the puzzle of backend development, making sure every piece fits seamlessly to power the user experience. 
-                    My focus may lean towards the backend but i'm also drawn to the artistry of the front end and i appreciate the harmony between form and function. I'm eager to dive into the dynamic world of web development, contributing my skills and enthusiasm to create intuitive and efficient digital solutions.
-                    As I continue my journey, I'm excited to learn and evolve alongside the ever-changing technology landscape
+                    Since October 2023, I’ve specialized in architecting robust backend pipelines for LoRaWAN devices writing custom ThingsBoard payload decoders, designing rulechains 
+                    that automate alarms and data flows, and ensuring reliable uplink/downlink processing. I’m most at home building and optimizing server-side systems—modeling and 
+                    transforming raw sensor streams into actionable events yet equally comfortable stepping into full-stack work with JavaScript, Node.js and React to surface 
+                    real-time insights. My platform-centric background has honed my ability to solve complex problems under tight constraints, and now I’m eager to apply that 
+                    expertise to end-to-end solutions: from infrastructure and APIs to dashboards and deployments. Agile collaboration, continuous learning, and a passion for 
+                    turning connected devices into scalable software are at the heart of my approach.
                 </p>
             </div>
             <div>
